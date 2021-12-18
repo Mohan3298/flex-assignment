@@ -1,0 +1,13 @@
+#menu_bar{background:#00f}ul{display:flex;justify-content:center;padding-left:0}ul li{color:#0f0;padding:1.5%}ul li:hover{color:#fff;background:#ffa07a}#img{display:flex;justify-content:center}
+.img_ctr{width:25%;background:#2f4f4f;border:solid 1px #d4e1ec}.footer_section:nth-child(2n+1):hover,.image:nth-child(2n+1):hover,.img_ctr:nth-child(2n+1):hover{background:#add8e6}.footer_section:nth-child(2n+2):hover,.image:nth-child(2n+2):hover,.img_ctr:nth-child(2n+2):hover{background:#90ee90}
+#multi_img,#multi_imgs,#navigation,.prefer{width:80%;margin:auto;padding:1.5%}#multi_imgs{display:flex;justify-content:center;flex-flow:row wrap}
+.image{width:24%!important;border:solid 1px #d4e1ec;margin:.5%}#choosing{background:#f5f5f5}.navigate1{background:#fff;width:40%}
+#navigation{display:flex;justify-content:center}ol{display:flex;flex-flow:column wrap;padding:1%}ol li{color:#00f;padding:.5%;margin:3%}
+.bg{background:#0ff;color:#fff!important;padding:1%}.navigate2{width:60%;display:flex;background:url(flex-pic/smiling-cleaning.jpg) top center}
+#opacity{background:rgba(10,10,10,.5);width:60%;padding:5%}.disc::before{content:"\2022"}#about{display:flex;background:url(flex-pic/pressure.jpg) fixed top center}
+.opacity1{background:rgba(10,92,214,.5);padding:5%;width:100%;text-align:center}#indent{text-indent:40px}
+span{border:1px solid #d4e1ec;padding:1%;margin:.5%;background:#0f0}#footer{background:#d3d3d3;display:flex;justify-content:center;padding:3%}
+.footer_section{width:21%;padding:1%;background-color:rgba(216,200,205,.5);margin:.5%;align-content:center}
+@media only screen and (min-width:300px) and (max-width:1024px){.top1,.top2{width:25%}.top3{width:50%}
+#menu_bar{font-size:7px}.image{display:flex;flex-flow:column wrap;justify-content:center}.img_ctr{width:25%;background:#2f4f4f;border:solid 1px #d4e1ec;text-align:center}
+h2{font-size:10px!important}body{font-size:7px}}
