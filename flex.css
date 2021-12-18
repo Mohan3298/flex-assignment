@@ -1,0 +1,123 @@
+#menu_bar{
+    background: blue;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+}
+ul li{
+    color: lime;
+    padding: 1.5%;
+    
+}
+ul li:hover{
+    color: white;
+    background: lightsalmon;
+}
+#img{
+    display: flex;
+    justify-content: center;
+}
+.img_ctr{
+    background: darkslategrey;
+    border: solid 1px #D4e1ec;
+}
+.img_ctr:nth-child(2n+1):hover, .image:nth-child(2n+1):hover, .footer_section:nth-child(2n+1):hover{
+    background: lightblue;
+}
+.img_ctr:nth-child(2n+2):hover, .image:nth-child(2n+2):hover, .footer_section:nth-child(2n+2):hover{
+    background: lightgreen;
+}
+#multi_img, #multi_imgs, .prefer, #navigation{
+    width: 80%;
+    margin: auto;
+    padding: 1.5%;
+}
+#multi_imgs{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+}
+.image{
+    width: 24%;
+    border: solid 1px #D4e1ec;
+    margin: 0.5%;
+}
+#choosing{
+    background: whitesmoke;
+}
+.navigate1{
+    background: white;
+    width: 40%;
+}
+#navigation{
+    display: flex;
+    justify-content: center;
+}
+ol{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1% ;
+}
+ol li{
+    color: blue;
+    padding: 0.5%;
+    margin:3%  ;
+}
+.bg{
+    background: cyan;
+    color: white !important;
+    padding: 1%;
+}
+.navigate2{
+    width: 60%;
+    display: flex;
+    background: url(flex-pic/smiling-cleaning.jpg) top center;
+}
+#opacity{
+    background: rgba(10, 10, 10, 0.5);
+    width: 60%;
+    padding: 5%;
+}
+.disc::before{
+    content: "\2022";
+}
+#about{
+    display: flex;
+    
+    background: url(flex-pic/pressure.jpg) fixed top center;
+
+}
+.opacity1{
+    background: rgba(10, 92, 214, 0.5);
+    padding: 5%;
+    width: 100%;
+    text-align: center;
+}
+#indent{
+    text-indent: 40px;
+}
+span{
+    border: 1px solid #D4e1ec;
+    padding: 1%;
+    margin: 0.5%;
+    background: lime;
+}
+#footer{
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+.footer_section{
+    width: 21%;
+    padding: 1%;
+    background-color: rgba(216, 200, 205, 0.5); 
+    margin: 0.5%; 
+    align-content: center;
+}
+
+
+  
