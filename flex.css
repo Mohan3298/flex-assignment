@@ -118,6 +118,24 @@ span{
     margin: 0.5%; 
     align-content: center;
 }
+@media only screen and (min-width: 300px) and (max-width: 1024px){
+    .top1, .top2{
+        width: 100%;
+    }
+    .top3{
+        width: 100%;
+    }
+    #menu_bar{
+        font-size: 7px;
+    }
+    .img_ctr{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        background: darkslategrey;
+        border: solid 1px #D4e1ec;
+    }
+} 
 
 
   
